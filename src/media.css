@@ -1,0 +1,198 @@
+/* media for small devices */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .burger {
+    width: 50%;
+    margin-left: 10px;
+  }
+  .section-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .section-content p{
+    font-size: 14px;
+    padding: 10px;
+  }
+  .mid-content {
+    padding: 20px;
+  }
+  .section-wrapper {
+    width: 100%;
+  }
+  .card-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .card-section p {
+    margin: 0px 80px;
+    padding: 20px;
+    font-size: 26px;
+  }
+  .card-section h4 {
+    font-size: lar;
+  }
+  /* cards section */
+  .menu-card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu_data {
+    width: 100%;
+  }
+  .middle-head {
+    margin: 0px 50px;
+    font-size: 20px;
+  }
+  .card_body p{
+    padding: 20px;
+  }
+  .card_img img {
+    width: 100%;
+  }
+  /* for advertisement card */
+  .advertise {
+    flex-direction: column;
+  }
+  .advertise_card {
+    width: 100%;
+    flex-direction: column;
+  }
+  /* advertising end */
+
+  /* contact section */
+  .contact_section .row {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+}
+
+/* contact section end */
+  /* offer discount section 5 */
+  .offer_data{
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .shop_img{
+    padding: 30px 0;
+  }
+  /* contact */
+  .contact{
+    flex-direction: column;
+   padding: 20px 10px;
+  }
+  .contact h4{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .contact h2{
+    font-size:18px;
+    letter-spacing: 1px;
+  }
+  .contact p{
+    font-size: 12px;
+  }
+  .foot_content{
+    flex-wrap: wrap;
+  }
+}
+
+/* Media for large devices */
+@media (max-width:992) {
+  .container {
+    max-width: 100%;
+  }
+  .section-content {
+    width: 50%;
+    flex-direction: column;
+  }
+  .hero-content {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 50px;
+  }
+  .section-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mid-content {
+    padding: 20px;
+  }
+  .section-wrapper {
+    width: 100%;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .card-section p {
+    margin: 0px 80px;
+    padding: 20px;
+    font-size: 26px;
+  }
+  .card-section h4 {
+    font-size: lar;
+  }
+  /* cards section */
+  .menu-card {
+    flex-direction: column;
+  }
+  .menu_data {
+    width: 150%;
+    margin: 20px;
+    padding: 20px;
+  }
+  .middle-head {
+    margin: 0px 50px;
+    font-size: 20px;
+  }
+  .card_img img {
+    width: 50%;
+  }
+  .advertise_card {
+    width: 100%;
+  }
+
+  /* section 4 promotion section...... */
+  .promotion_content{
+    width: 100%;
+    flex-direction: column;
+  }
+  .promotion_image{
+    width: 100%;
+    top: 0;
+  left: 0;
+  padding: 40px;
+  margin-right: 60px;
+  }
+  .promotion_data {
+  padding:20px;
+  }
+  .parallax{
+    background-attachment: scroll;
+    height: auto;
+  }
+
+  /* discount section 5 */
+  .offer_data{
+   flex-wrap: wrap;
+    margin-right: 20px;
+    padding: 40px;
+  }
+  .shop_img{
+    width: 100%;
+    height: auto;
+  }
+}
